@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-text-color: #83888F;
+    --text-color: #FEFCF7;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0;
+    cursor: pointer;
+}
+
+.navbar__nav-list {
+    display: flex;
+    gap: 33px;
+    text-transform: uppercase;
+}
+
+.header__nav-list__link {
+    font-family: 'Barlow', serif;
+    color: var(--main-text-color);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    transition: 0.5s;
+}
+
+.header__nav-list__link:hover {
+    color: #000;
+    font-size: 13px;
+}
+
+.header__nav-list__link:active {
+    transform: scale(0.96);
+}
+
+.hero__section {
+    background: url('../images/Bitmap.png');
+}
+
+.hero__section .hero__section-texts {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    max-width: 500px;
+    width: 100%;
+    padding: 137px 0 137px 85px;
+}
+
+.hero__section-texts h1 {
+    font-family: 'Fraunces', serif;
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.hero__section-texts p {
+    color: var(--text-color);
+    font-family: 'Barlow', serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.commitment__wrapper {
+    padding: 0 85px;
+    display: flex;
+    margin-top: 168px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 125px;
+    margin-bottom: 224px;
+}
+
+.commitment__wrapper-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.commitment__wrapper-text h3 {
+    color: #333D4B;
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.commitment__wrapper-text p {
+    color: #333D4B;
+    font-family: 'Barlow', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+.quality__wrapper {
+    display: flex;
+    border-radius: 10px;
+    background: #2C343E;
+    position: relative;
+    gap: 125px;
+    padding-left: 85px;
+}
+
+.quality__wrapper-texts {
+    margin-right: 92px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 92px;
+}
+
+.quality__wrapper-texts h3 {
+    color: var(--text-color);
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.quality__wrapper-texts p {
+    color: var(--text-color);
+    font-size: 16px;
+    font-family: 'Barlow', serif;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+.quality__wrapper img {
+    position: relative;
+    right: 85px;
+    top: -96px;
+}
+
+.headquarters__wrapper {
+    padding-left: 85px;
+    padding-right: 315px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    margin-top: 168px;
+}
+
+.headquarters__wrapper h4 {
+    color: var(--main-text-color);
+    font-size: 24px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.countrties__wrapper {
+    display: flex;
+    gap: 95px;
+    justify-content: space-between;
+}
+
+.uk img {
+    margin-bottom: 46px;
+    cursor: pointer;
+}
+
+.uk h3 {
+    color: #333D4B;
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+
+.uk ul {
+    color: #333D4B;
+    font-family: 'Barlow', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+footer {
+    background: #2C343E;
+    padding: 47px 0;
+    margin-top: 168px;
+    cursor: pointer;
+}
+
+.about__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 102px;
+}
+
+.logo__wrapper img {
+    width: 236px;
+    height: 26px;
+}
+
+.logo__wrapper ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo__wrapper ul a {
+    color: #83888F;
+    font-family: 'Barlow', serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.logo__wrapper ul a:hover {
+    color: #fff;
+    font-size: 13px;
+}
+
+.logo__wrapper ul a:active {
+    transform: 0.96;
+}
